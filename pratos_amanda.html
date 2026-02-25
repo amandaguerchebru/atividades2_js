@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checar Pratos</title>
+</head>
+<body>
+    <script>
+        let opcoes = prompt("Digite um prato que você gostaria de comer entre: Pizza, Hamburguer, Sushi e Salada!").toUpperCase();
+        
+        switch(opcoes){
+            case "PIZZA":
+                document.write("Temos esse prato! Pizza é uma ótima opção.");
+                break;
+            case "HAMBURGUER":
+                document.write("Temos esse prato! Hamburguer é uma ótima opção.");
+                break;
+            case "SUSHI":
+                document.write("Temos esse prato! Sushi é uma ótima opção.");
+                break;
+            case "SALADA":
+                document.write("Temos esse prato! Salada é uma ótima opção.");
+                break;
+                default: 
+                document.write("Está opção é inválida")
+        }
+    </script>
+</body>
+</html>
